@@ -1,25 +1,25 @@
 Overview Workflow
-Set Up Environment:
 
+Set Up Environment:
 Install required packages using requirements.txt.
 Set up the project directory structure.
-Prepare Data:
 
+Prepare Data:
 Collect and organize static images and videos for obstacle and lane detection.
 Store them in the data/ directory.
+
 Implement Obstacle Detection:
-
 Develop a script obstacle_detection.py to use YOLO for detecting obstacles in static images.
+
 Implement Lane Detection:
-
 Develop a script lane_detection.py to use OpenCV for detecting lanes in images and videos.
+
 Combine Detection Methods:
-
 Create a main.py script to integrate both obstacle and lane detection.
-Test and Validate:
 
+Test and Validate:
 Run the scripts on sample data to ensure they work as expected.
 Validate the results and make necessary adjustments.
-Document the Project:
 
+Document the Project:
 Update the README.md with project details, usage instructions, and dependencies.
