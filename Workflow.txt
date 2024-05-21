@@ -1,0 +1,29 @@
+The system combines two components:
+-Car Detection: Uses YOLOv8 to detect cars.
+-Road Detection: Uses image processing techniques to identify lane lines.
+
+Steps:
+1.Importing Libraries
+Libraries used: Pandas, OpenCV, Matplotlib, NumPy, and more.
+2.Adding the Dataset
+Loaded and shuffled the dataset from "labels_train.csv".
+3.Labeling the Objects
+Identified unique classes and assigned labels for better understanding.
+4.Labeling the Objects in Images
+Loaded images and displayed bounding boxes with labels.
+5.Road Detection Preprocessing
+Converted images to grayscale, applied Gaussian blur, and detected edges with Canny.
+6.Training the Car Detection Model
+Utilized YOLOv8, made predictions, and displayed results with bounding boxes and probabilities.
+7.Training the Road Detection Model
+Implemented functions for edge detection, region of interest extraction, and lane line detection using Hough Transform.
+8.Testing the Models
+Tested both models on new images, saved bounding box information, and visualized the results.
+9.Road Detection on Video
+Processed video frames in real-time, detected lane lines, and displayed the results.
+10.Running the Complete System
+Combined both models to simultaneously detect cars and lane lines in images and videos.
+
+Output Files:
+-bounding_boxes_car.txt: Contains coordinates of detected cars.
+-bounding_boxes_road.txt: Contains coordinates of detected lane lines.

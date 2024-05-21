@@ -1,0 +1,19 @@
+Object type: 2.0
+Coordinates: [113.58023071289062, 136.22132873535156, 154.0084991455078, 168.81336975097656]
+Probability: 0.8887924551963806
+Object type: car
+Coordinates: [114, 136, 154, 169]
+Probability: 0.89
+---
+Object type: car
+Coordinates: [15, 133, 64, 176]
+Probability: 0.87
+---
+Object type: car
+Coordinates: [60, 78, 89, 102]
+Probability: 0.76
+---
+Object type: car
+Coordinates: [184, 108, 218, 137]
+Probability: 0.38
+---
